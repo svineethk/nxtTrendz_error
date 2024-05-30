@@ -1,0 +1,227 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+
+.search-container {
+  height: 40px;
+  width: 230px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #f1f5f9;
+}
+
+.search-input {
+  height: 25px;
+  outline: none;
+  margin-right: 8px;
+  border-color: transparent;
+  background-color: transparent;
+  border-radius: 8px;
+  padding-left: 10px;
+}
+
+.category-container {
+  margin: 0px;
+  padding: 0px;
+}
+
+.list {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.category-button {
+  height: 30px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-color: transparent;
+  background-color: transparent;
+  font-family: Roboto;
+  outline: none;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+.category-name-normal {
+  font-family: Roboto;
+  font-weight: 500;
+  color: #64748b;
+}
+
+.category-name-active {
+  color: #0967d2;
+  font-family: Roboto;
+  font-weight: 500;
+}
+
+.ratings-list-container {
+  margin: 0px;
+  padding: 0px;
+}
+
+.category-rating {
+  height: 35px;
+  width: 270px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 0px;
+  outline: none;
+  border-color: transparent;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.rating-image {
+  height: 35px;
+  width: 180px;
+  margin-right: 7px;
+}
+
+.rating-name-normal {
+  font-family: Roboto;
+  font-weight: 500;
+  color: #64748b;
+}
+
+.rating-name-active {
+  color: #0967d2;
+  font-family: Roboto;
+  font-weight: 500;
+}
+
+.clear-filter-button {
+  margin-top: 30px;
+  height: 30px;
+  width: 150px;
+  border-radius: 5px;
+  outline: none;
+  border-color: #0967d2;
+  font-weight: bold;
+  color: #0967d2;
+  font-family: Roboto;
+  cursor: pointer;
+  margin-bottom: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+
+  .search-container {
+    height: 40px;
+    width: 230px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #f1f5f9;
+  }
+
+  .search-input {
+    height: 25px;
+    outline: none;
+    margin-right: 8px;
+    border-color: transparent;
+    background-color: transparent;
+    border-radius: 8px;
+    padding-left: 10px;
+  }
+
+  .category-container {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .list {
+    list-style-type: none;
+    padding: 0px;
+  }
+
+  .category-button {
+    height: 30px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-color: transparent;
+    background-color: transparent;
+    font-family: Roboto;
+    outline: none;
+    margin-bottom: 5px;
+    cursor: pointer;
+  }
+  .category-name-normal {
+    font-family: Roboto;
+    font-weight: 500;
+    color: #64748b;
+  }
+
+  .category-name-active {
+    color: #0967d2;
+    font-family: Roboto;
+    font-weight: 500;
+  }
+
+  .ratings-list-container {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .category-rating {
+    height: 35px;
+    width: 270px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 0px;
+    outline: none;
+    border-color: transparent;
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+  .rating-image {
+    height: 35px;
+    width: 180px;
+    margin-right: 7px;
+  }
+
+  .rating-name-normal {
+    font-family: Roboto;
+    font-weight: 500;
+    color: #64748b;
+  }
+
+  .rating-name-active {
+    color: #0967d2;
+    font-family: Roboto;
+    font-weight: 500;
+  }
+
+  .clear-filter-button {
+    margin-top: 30px;
+    height: 30px;
+    width: 150px;
+    border-radius: 5px;
+    outline: none;
+    border-color: #0967d2;
+    font-weight: bold;
+    color: #0967d2;
+    font-family: Roboto;
+    cursor: pointer;
+  }
+}
+
+/* Write your CSS here */
