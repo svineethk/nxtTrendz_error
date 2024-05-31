@@ -25,6 +25,11 @@ const FiltersGroup = props => {
       enterSearchInput(searchInput)
     }
   }
+
+  const onClearFilter = () => {
+    clearFilter()
+  }
+
   return (
     <div className="filters-group-container">
       <div className="search-container">
@@ -92,7 +97,7 @@ const FiltersGroup = props => {
       <button
         type="button"
         className="clear-filter-button"
-        onClick={clearFilter}
+        onClick={onClearFilter}
       >
         Clear Filters
       </button>
